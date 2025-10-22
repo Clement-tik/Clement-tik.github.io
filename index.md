@@ -10,6 +10,6 @@
 https://clement-tik.github.io/
 ## Task 3 : Research ideas 
 
-### [cite_start]Titre : [Votre Titre Ici] [cite: 16]
+### Title : 
 
-### [cite_start]Proposition : [Écrivez votre proposition ici, en moins de 200 mots] [cite: 15, 17]
+### Our Proposition : 
