@@ -1,8 +1,8 @@
-# Mon Projet pour ITE 351
+# AI and Applications : Project 1 
 
 ## Tâche 1 : Membres du Groupe
 
-* [cite_start]Nom1, Organisation, Email [cite: 5]
+* Clement Tikhomiroff , dpt of computer sience , clement.tikhomiroff@gmail.com
 * [cite_start]Nom2, Organisation, Email [cite: 5]
 
 ## Tâche 3 : Idée de Recherche
