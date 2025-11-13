@@ -3,14 +3,20 @@
 {:toc}
 ## Our Members :
 
-* Clement Tikhomiroff ,dpt of computer sience ,clement.tikhomiroff@gmail.com
-* Victor Venail ,dpt of computer science ,victor.venail@edu.ece.fr
-* Elodie huang ,dpt of computer science ,elodie.huang@edu.ece.fr
-* Cindy HU ,dpt of computer science ,cindy.hu@edu.ece.fr
-* https://clement-tik.github.io/
+* Clement Tikhomiroff ,dpt of computer sience ,Hanyang University ,clement.tikhomiroff@gmail.com
+* Victor Venail ,dpt of computer science ,Hanyang University ,victor.venail@edu.ece.fr
+* Elodie huang ,dpt of computer science ,Hanyang University ,elodie.huang@edu.ece.fr
+* Cindy HU ,dpt of computer science ,Hanyang University ,cindy.hu@edu.ece.fr
+* our blog address https://clement-tik.github.io/
 ## 1 INTRODUCTION  :
 
-## Our dataset :
+## 2 Datasets :
+
+## 3 Methodology :
+
+## 4 Evaluation & Analysis :
+
+## 5 Related Work 
 
 
 ### Proposal: : 
