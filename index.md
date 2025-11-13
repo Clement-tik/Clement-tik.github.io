@@ -1,5 +1,6 @@
 # CryptoForecast: A Time-Series Forecasting Prototype for Cryptocurrency Prices
-
+* Table des matières
+{:toc}
 ## Our Members :
 
 * Clement Tikhomiroff ,dpt of computer sience ,clement.tikhomiroff@gmail.com
