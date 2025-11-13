@@ -1,16 +1,15 @@
-# AI and Applications : Project 1 
+# CryptoForecast: A Time-Series Forecasting Prototype for Cryptocurrency Prices
 
-## Task 1 : Group
+## Our Members :
 
 * Clement Tikhomiroff ,dpt of computer sience ,clement.tikhomiroff@gmail.com
 * Victor Venail ,dpt of computer science ,victor.venail@edu.ece.fr
 * Elodie huang ,dpt of computer science ,elodie.huang@edu.ece.fr
 * Cindy HU ,dpt of computer science ,cindy.hu@edu.ece.fr
-## Task 2 : our blog address :
+## 1 INTRODUCTION  :
 https://clement-tik.github.io/
-## Task 3 : Research ideas 
+## Our dataset :
 
-### Title : CryptoForecast: A Time-Series Forecasting Prototype for Cryptocurrency Prices
 
 ### Proposal: : 
 The cryptocurrency market is known for its high volatility, making price prediction particularly complex. This project aims to develop a prototype service (Option B)  that makes trend forecasting more accessible and understandable.
