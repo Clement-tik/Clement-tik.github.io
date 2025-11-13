@@ -6,8 +6,9 @@
 * Victor Venail ,dpt of computer science ,victor.venail@edu.ece.fr
 * Elodie huang ,dpt of computer science ,elodie.huang@edu.ece.fr
 * Cindy HU ,dpt of computer science ,cindy.hu@edu.ece.fr
+* https://clement-tik.github.io/
 ## 1 INTRODUCTION  :
-https://clement-tik.github.io/
+
 ## Our dataset :
 
 
