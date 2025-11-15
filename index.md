@@ -38,6 +38,12 @@ These extreme market movements represent a major problem with diverse consequenc
 
 Faced with this continuous increase in volatility, questions arise: When will it stop? Can this risk at least be managed? And if so, what can we do? How can we better protect investors and minimize losses?
 
+Some of these losses could have been avoided, but the vast majority were inevitable due to the nature of the market. That's why the best way to reduce damage and protect people is anticipation.
+
+To map risk zones based on market conditions. To allow investors to prepare BEFORE a violent move. To save billions of euros in savings. To minimize the destruction of capital. To allow for better risk management by professionals and individuals who are better prepared. To collect scientific data to better understand the factors influencing the onset and intensity of these movements.
+
+That is what our project is about. To develop a program using artificial intelligence to predict the direction and intensity of a market movement, to preserve capital and reduce the frequency of losses using the collected data.
+
   
 
 
