@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/style.css">
 # CryptoForecast: A Time-Series Forecasting Prototype for Cryptocurrency Prices
 <div class="ma_super_toc" markdown="1">
-* [Our Members](#our-members-)
+* [Our Members](#our-members)
 * [1. Introduction](#1-introduction--)
 * [2. Datasets](#2-datasets-)
 * [3. Methodology](#3-methodology-)
