@@ -30,6 +30,16 @@ Once a movement starts, it can spread rapidly depending on market sentiment and 
 * Algorithmic Trading ("Bots"): The rapid interventions of high-frequency trading bots bring a new influx of orders (buy/sell) to the movement. They can also propagate cascading effects, triggering liquidations in the derivatives markets.
 * Structure (Order Books): Prices tend to move faster uphill as they break through "sell walls" (resistance) than downhill. This acceleration is due to buying pressure forcing stop-loss orders located further up to be triggered, allowing them to be hit more easily.
 
+### The Consequences:
+
+These extreme market movements represent a major problem with diverse consequences:
+* Economic Issues: Volatility can cause immense losses for unwary investors. In 2022, the collapse of several platforms destroyed billions of dollars in capital, ruining thousands of investors. These collapses disrupt economic activity by destroying confidence and freezing capital.
+* Human Issues: Volatility causes immense human stress. Furthermore, the unregulated nature of the market fosters scams ("rug pulls") that target individuals. Exposure to this volatility is estimated to cause mental health problems for thousands of investors.
+
+Faced with this continuous increase in volatility, questions arise: When will it stop? Can this risk at least be managed? And if so, what can we do? How can we better protect investors and minimize losses?
+
+  
+
 
 
 
