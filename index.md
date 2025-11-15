@@ -50,7 +50,7 @@ To do so, we need a complete and reliable dataset to train our model. So, we dec
 
    ![an example of our dataset](images/BDD_AI_BTC.jpg)
    
-We got here a screenshot of our project's dataset. It's a CSV file containing historical time-series data for Bitcoin (BTC)
+We got here a screenshot of our project's dataset. It's a CSV file containing historical time-series data for Bitcoin (BTC).
 This is the raw data our AI model will use for training. Each row represents a single day and includes the key features for our analysis:
 * SNo : serial number
 * Name : the name of the coin 
