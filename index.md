@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/style.css">
 # CryptoForecast: A Time-Series Forecasting Prototype for Cryptocurrency Prices
-<div class="ma super toc">
+<div class="ma_super_toc">
 * [Our Members](#our-members-)
 * [1. INTRODUCTION](#1-introduction--)
 * [2. Datasets](#2-datasets-)
