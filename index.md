@@ -8,13 +8,56 @@
 * [4. Evaluation & Analysis](#4-evaluation--analysis-)
 * [5. Related Work](#5-related-work)
 </div>
-## Our Members :
+<div markdown="1">
+## Our Members
+</div>
+<div class="team-container">
+  <div class="team-member">
+    <h4>Clement Tikhomiroff</h4>
+    <p class="member-info">
+      dpt of computer science, Hanyang University
+    </p>
+    <p class="member-email">
+      <a href="mailto:clement.tikhomiroff@gmail.com">clement.tikhomiroff@gmail.com</a>
+    </p>
+  </div>
+  <div class="team-member">
+    <h4>Victor Venail</h4>
+    <p class="member-info">
+      dpt of computer science, Hanyang University
+    </p>
+    <p class="member-email">
+      <a href="mailto:victor.venail@edu.ece.fr">victor.venail@edu.ece.fr</a>
+    </p>
+  </div>
+  <div class="team-member">
+    <h4>Elodie Huang</h4>
+    <p class="member-info">
+      dpt of computer science, Hanyang University
+    </p>
+    <p class="member-email">
+      <a href="mailto:elodie.huang@edu.ece.fr">elodie.huang@edu.ece.fr</a>
+    </p>
+  </div>
+  <div class="team-member">
+    <h4>Cindy HU</h4>
+    <p class="member-info">
+      dpt of computer science, Hanyang University
+    </p>
+    <p class="member-email">
+      <a href="mailto:cindy.hu@edu.ece.fr">cindy.hu@edu.ece.fr</a>
+    </p>
+  </div>
+</div>
+<div markdown="1">
+## Blog Address
+</div>
+<div class="blog-link-box">
+  <a href="https://clement-tik.github.io/" target="_blank">
+    https://clement-tik.github.io/
+  </a>
+</div>
 
-* Clement Tikhomiroff ,dpt of computer sience ,Hanyang University ,clement.tikhomiroff@gmail.com
-* Victor Venail ,dpt of computer science ,Hanyang University ,victor.venail@edu.ece.fr
-* Elodie huang ,dpt of computer science ,Hanyang University ,elodie.huang@edu.ece.fr
-* Cindy HU ,dpt of computer science ,Hanyang University ,cindy.hu@edu.ece.fr
-* our blog address https://clement-tik.github.io/
 ## 1 Introduction :
 
 Predicting the evolution of financial markets is often compared to “predicting the unpredictable” a challenge that reaches its peak with cryptocurrencies. Indeed, we are talking about high volatile market which can either make you rich or makes you lose everything.
