@@ -19,6 +19,10 @@ In fact, a cryptocurrency's price depends on a combination of factors to start a
 
 ### The "Ingredients" of a Market Movement :
 
+* A Catalyst: This is anything that can generate sudden interest. Common catalysts are an announcement from the Federal Reserve (FED) or an ETF approval.
+* Market Players: This is the available liquidity and general sentiment. Retail investors, investment funds, and "whales" (large wallets) are the typical drivers. The amount of "FOMO" (Fear of Missing Out) or "FUD" (Fear, Uncertainty, and Doubt) greatly affects how quickly a price evolves.
+* Asset Nature: Certain assets, like "memecoins," are propelled by social media mechanisms and can react more quickly and intensely than established assets like Bitcoin.
+
 
 
 
