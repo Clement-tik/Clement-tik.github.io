@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/style.css">
 # CryptoForecast: A Time-Series Forecasting Prototype for Cryptocurrency Prices
 * Table des matières
 {:toc}
