@@ -15,7 +15,7 @@
 * Elodie huang ,dpt of computer science ,Hanyang University ,elodie.huang@edu.ece.fr
 * Cindy HU ,dpt of computer science ,Hanyang University ,cindy.hu@edu.ece.fr
 * our blog address https://clement-tik.github.io/
-## 1 INTRODUCTION  :
+## 1 Introduction :
 
 Predicting the evolution of financial markets is often compared to “predicting the unpredictable” a challenge that reaches its peak with cryptocurrencies. Indeed, we are talking about high volatile market which can either make you rich or makes you lose everything.
 
