@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="/style.css">
 # CryptoForecast: A Time-Series Forecasting Prototype for Cryptocurrency Prices
 
-* [Our Members](#our-members)
-* [1. INTRODUCTION](#1-introduction)
-* [2. Datasets](#2-datasets)
-* [3. Methodology](#3-methodology)
-* [4. Evaluation & Analysis](#4-evaluation-analysis)
+* [Our Members](#our-members-)
+* [1. INTRODUCTION](#1-introduction--)
+* [2. Datasets](#2-datasets-)
+* [3. Methodology](#3-methodology-)
+* [4. Evaluation & Analysis](#4-evaluation--analysis-)
 * [5. Related Work](#5-related-work)
 ## Our Members :
 
