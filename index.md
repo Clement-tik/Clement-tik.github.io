@@ -47,7 +47,21 @@ That is what our project is about. To develop a program using artificial intelli
 ## 2 Datasets :
 
 To do so, we need a complete and reliable dataset to train our model. So, we decided to choose Cryptocurrency Historical Prices, a dataset which contains about 23 of the most popular cryptocurrency such as BTC , ETH or SOL.
-![an example of our dataset](images/BDD_AI_BTC.jpg)
+
+   ![an example of our dataset](images/BDD_AI_BTC.jpg)
+   
+We got here a screenshot of our project's dataset. It's a CSV file containing historical time-series data for Bitcoin (BTC)
+This is the raw data our AI model will use for training. Each row represents a single day and includes the key features for our analysis:
+* SNo : serial number
+* Name : the name of the coin 
+* Symbol : Symbol of coin
+* Date : Date
+* High : High value on the date
+* Low : Low value on the date
+* Open : Open value on the date
+* Close : Close value on the date
+* Volume : Volume of transactions in USD
+* MarketCAP : the marketCAP of the coin which is : Current Price × Circulating Supply
 
 ## 3 Methodology :
 
