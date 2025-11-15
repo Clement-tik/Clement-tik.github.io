@@ -63,6 +63,7 @@ This is the raw data our AI model will use for training. Each row represents a s
 * Volume : Volume of transactions in USD
 * MarketCAP : the marketCAP of the coin which is : Current Price × Circulating Supply
 
+Then we got the exact same type of files for the others coins.
 ## 3 Methodology :
 
 ## 4 Evaluation & Analysis :
