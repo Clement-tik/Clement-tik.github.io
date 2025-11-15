@@ -28,14 +28,6 @@
 
 </div>
 
-<div class="bloc-simple" markdown="1">
-
-## Blog Address
-
-* [https://clement-tik.github.io/](https://clement-tik.github.io/)
-
-</div>
-
 ## 1 Introduction :
 
 Predicting the evolution of financial markets is often compared to “predicting the unpredictable” a challenge that reaches its peak with cryptocurrencies. Indeed, we are talking about high volatile market which can either make you rich or makes you lose everything.
