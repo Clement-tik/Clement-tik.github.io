@@ -23,6 +23,13 @@ In fact, a cryptocurrency's price depends on a combination of factors to start a
 * Market Players: This is the available liquidity and general sentiment. Retail investors, investment funds, and "whales" (large wallets) are the typical drivers. The amount of "FOMO" (Fear of Missing Out) or "FUD" (Fear, Uncertainty, and Doubt) greatly affects how quickly a price evolves.
 * Asset Nature: Certain assets, like "memecoins," are propelled by social media mechanisms and can react more quickly and intensely than established assets like Bitcoin.
 
+### The Spread of the Movement:
+
+Once a movement starts, it can spread rapidly depending on market sentiment and the structure of the order book.
+* Social Media Sentiment: This is a key factor. The volume of mentions on X (Twitter) or Reddit is a critical element. Studies have shown that a rise in positive sentiment is linked to an increase in prices. Very high sentiment can suck up liquidity and cause prices to rise.
+* Algorithmic Trading ("Bots"): The rapid interventions of high-frequency trading bots bring a new influx of orders (buy/sell) to the movement. They can also propagate cascading effects, triggering liquidations in the derivatives markets.
+* Structure (Order Books): Prices tend to move faster uphill as they break through "sell walls" (resistance) than downhill. This acceleration is due to buying pressure forcing stop-loss orders located further up to be triggered, allowing them to be hit more easily.
+
 
 
 
