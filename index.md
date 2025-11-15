@@ -1,9 +1,12 @@
 <link rel="stylesheet" href="/style.css">
 # CryptoForecast: A Time-Series Forecasting Prototype for Cryptocurrency Prices
-* [Introduction](#introduction)
-* [1. Méthodologie : Collecte des Données](#1-méthodologie--collecte-des-données)
-* [2. Analyse et Modèle LSTM](#2-analyse-et-modèle-lstm)
-* [Conclusion](#conclusion)
+
+* [Our Members](#our-members)
+* [1. INTRODUCTION](#1-introduction)
+* [2. Datasets](#2-datasets)
+* [3. Methodology](#3-methodology)
+* [4. Evaluation & Analysis](#4-evaluation-analysis)
+* [5. Related Work](#5-related-work)
 ## Our Members :
 
 * Clement Tikhomiroff ,dpt of computer sience ,Hanyang University ,clement.tikhomiroff@gmail.com
