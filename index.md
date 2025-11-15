@@ -44,14 +44,9 @@ To map risk zones based on market conditions. To allow investors to prepare BEFO
 
 That is what our project is about. To develop a program using artificial intelligence to predict the direction and intensity of a market movement, to preserve capital and reduce the frequency of losses using the collected data.
 
-  
-
-
-
-
-
-
 ## 2 Datasets :
+
+To do so, we need a complete and reliable dataset to train our model. So, we decided to choose Cryptocurrency Historical Prices, a dataset which contains about 23 of the most popular cryptocurrency such as BTC , ETH or SOL.
 
 ## 3 Methodology :
 
