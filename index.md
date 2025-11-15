@@ -9,13 +9,32 @@
 * [5. Related Work](#5-related-work)
 </div>
 <div markdown="1">
-  
+<div class="bloc-simple" markdown="1">
+
 ## Our Members
-* Clement Tikhomiroff ,dpt of computer sience ,Hanyang University ,clement.tikhomiroff@gmail.com
-* Victor Venail ,dpt of computer science ,Hanyang University ,victor.venail@edu.ece.fr
-* Elodie huang ,dpt of computer science ,Hanyang University ,elodie.huang@edu.ece.fr
-* Cindy HU ,dpt of computer science ,Hanyang University ,cindy.hu@edu.ece.fr
-* our blog address https://clement-tik.github.io/ 
+
+* **Clement Tikhomiroff**
+  * *dpt of computer science, Hanyang University*
+  * *clement.tikhomiroff@gmail.com*
+* **Victor Venail**
+  * *dpt of computer science, Hanyang University*
+  * *victor.venail@edu.ece.fr*
+* **Elodie Huang**
+  * *dpt of computer science, Hanyang University*
+  * *elodie.huang@edu.ece.fr*
+* **Cindy HU**
+  * *dpt of computer science, Hanyang University*
+  * *cindy.hu@edu.ece.fr*
+
+</div>
+
+<div class="bloc-simple" markdown="1">
+
+## Blog Address
+
+* [https://clement-tik.github.io/](https://clement-tik.github.io/)
+
+</div>
 
 ## 1 Introduction :
 
