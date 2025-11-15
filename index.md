@@ -47,6 +47,7 @@ That is what our project is about. To develop a program using artificial intelli
 ## 2 Datasets :
 
 To do so, we need a complete and reliable dataset to train our model. So, we decided to choose Cryptocurrency Historical Prices, a dataset which contains about 23 of the most popular cryptocurrency such as BTC , ETH or SOL.
+![an example of our dataset](BDD_AI_BTC.jpeg)
 
 ## 3 Methodology :
 
