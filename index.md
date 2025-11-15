@@ -70,7 +70,28 @@ Then we got the exact same type of files for the others coins.
 ## 4 Evaluation & Analysis :
 
 ## 5 Related Work 
+<style>
+  /* Cible le conteneur de la table des matières */
+  #toc {
+    background-color: #f9f9f9;  /* Couleur de fond légère */
+    border: 1px solid #e0e0e0;   /* Bordure discrète */
+    border-radius: 8px;         /* Bords arrondis */
+    padding: 15px 25px;         /* Espace intérieur (haut/bas, gauche/droite) */
+    margin-bottom: 20px;        /* Espace en dessous */
+  }
 
+  /* Cible les liens à l'intérieur de la table */
+  #toc a {
+    text-decoration: none;      /* Enlève le soulignement */
+    color: #0366d6;             /* Couleur bleue (style GitHub) */
+  }
+
+  /* Change la couleur au survol de la souris */
+  #toc a:hover {
+    text-decoration: underline; /* Ajoute le soulignement au survol */
+    color: #005cc5;
+  }
+</style>
 
  
 
