@@ -145,7 +145,7 @@ To evaluate our model, we used a **"Sliding Window" approach on the test set**, 
 
 The most immediate way to judge the quality of our model is visual. By plotting the **Actual Prices (Blue)** against the **Predicted Prices (Orange)**, we can observe the model's behavior.
 
- ![graph comparaison](images/graphique_ai_comparaison.jpg)
+ ![graph comparaison](images/graphique_ai_comparaison.png)
 
 
 **Observations:**
