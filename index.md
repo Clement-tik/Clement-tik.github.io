@@ -131,6 +131,7 @@ To build this "CryptoForecast" prototype, we utilized a standard Python stack fo
 * **TensorFlow/Keras:** For building and training the Deep Learning model.
 * **Pandas & NumPy:** For data manipulation and matrix operations.
 * **Matplotlib:** To visualize the prediction curves against the real prices.
+* **Streamlit** To quickly create a website without using HTML or CSS.
 
 In essence, our methodology is about teaching the machine to recognize the "shape" of the market over the last two months to anticipate the very next step.
 
