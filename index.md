@@ -117,9 +117,6 @@ Why LSTM? Because in crypto, context matters. A price drop today might be a corr
 
 
 
-[Image of LSTM neural network architecture diagram]
-
-
 Our architecture is built as follows:
 
 * **Input Layer:** Takes the 60-day sequence of normalized prices.
