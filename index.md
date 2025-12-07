@@ -96,6 +96,47 @@ This complexity is precisely what makes it a perfect challenge for an AI model.
 
 ## 3 Methodology :
 
+To transform raw data into actionable predictions, we needed a robust algorithmic approach. Predicting a price isn't just about looking at numbers; it is about understanding sequences and temporal dependencies. Since financial data is a time-series problem, standard regression models are often insufficient.
+
+Therefore, our methodology relies on a specific type of Artificial Intelligence capable of "remembering" past trends to forecast future ones: **Deep Learning**.
+
+### Data Preprocessing & Acquisition
+
+Before feeding data to the AI, we must prepare the "ingredients." As mentioned in the Datasets section, we switched from static CSV files to a dynamic approach using the **`yfinance` API**. This allows our tool to be always up-to-date with the latest market movements.
+
+Once the data is retrieved, we apply two critical transformations:
+
+* **Normalization:** Cryptocurrency prices can range from $0.10 (Dogecoin) to $90,000 (Bitcoin). To avoid confusing the neural network with such scale differences, we compress all values between 0 and 1 using a **`MinMaxScaler`**.
+* **Sliding Window Technique:** We don't just give a date to the AI. We give it a context. We created sequences of **60 days**. The model learns that *"Sequence A (Day 1 to 60)"* leads to *"Target B (Day 61)."*
+
+### The Model: Long Short-Term Memory (LSTM)
+
+For the core of our project, we chose the **LSTM (Long Short-Term Memory)** network. This is a special kind of Recurrent Neural Network (RNN) designed specifically to avoid the "short-term memory" problem of traditional RNNs.
+
+Why LSTM? Because in crypto, context matters. A price drop today might be a correction after a month of rallying, or the start of a crash. The LSTM can distinguish between these by maintaining a "cell state"—a memory of what happened long ago in the sequence.
+
+
+
+[Image of LSTM neural network architecture diagram]
+
+
+Our architecture is built as follows:
+
+* **Input Layer:** Takes the 60-day sequence of normalized prices.
+* **LSTM Layers:** Two layers of 50 units each. They process the sequence, identifying patterns like "bull runs" or "consolidations."
+* **Dropout Layers:** To prevent "overfitting" (when the AI memorizes the data instead of learning from it), we randomly deactivate 20% of the neurons during training.
+* **Dense Output Layer:** A final neuron that aggregates the information to output a single value: the predicted price for the next day ($t+1$).
+
+### Implementation Tools
+
+To build this "CryptoForecast" prototype, we utilized a standard Python stack for Data Science:
+
+* **TensorFlow/Keras:** For building and training the Deep Learning model.
+* **Pandas & NumPy:** For data manipulation and matrix operations.
+* **Matplotlib:** To visualize the prediction curves against the real prices.
+
+In essence, our methodology is about teaching the machine to recognize the "shape" of the market over the last two months to anticipate the very next step.
+
 ## 4 Evaluation & Analysis :
 
 ## 5 Related Work 
