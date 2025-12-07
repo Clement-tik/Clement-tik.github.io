@@ -185,5 +185,38 @@ Despite a good RMSE, the low directional accuracy highlights two main limitation
 
 ## 5 Related Work 
 
+Our project does not exist in a vacuum. Cryptocurrency price prediction is a popular field of study in computer science and finance. In this section, we discuss the existing research that inspired our approach and list the technical tools we used to build our implementation.
+
+### 5.1 Existing Studies & Inspiration
+
+Predicting financial time series is a classic problem. Traditionally, statistical models like **ARIMA (AutoRegressive Integrated Moving Average)** were used. However, these models often fail to capture the high volatility and non-linear patterns of the cryptocurrency market.
+
+Recent studies have shifted towards **Machine Learning** and **Deep Learning**:
+
+* **RNNs vs. LSTMs:** Standard Recurrent Neural Networks (RNNs) struggle with long sequences of data due to the "vanishing gradient" problem. Research by *Hochreiter & Schmidhuber* introduced **LSTMs (Long Short-Term Memory)** to solve this, making them the standard for time-series forecasting. Our project implements this specific architecture because of its ability to retain information over a 60-day window.
+* **Multivariate Analysis:** While many beginner tutorials focus solely on price (Univariate), academic papers suggest that incorporating trading **Volume** and **Sentiment Analysis** significantly improves accuracy. We attempted to bridge this gap by implementing a multivariate approach (Price + Volume) in our final model.
+
+### 5.2 Technology Stack
+
+To realize this project, we relied on the standard Python Data Science ecosystem. Below are the specific libraries and tools we utilized:
+
+* **Data Acquisition:**
+    * `yfinance`: Used to fetch historical market data (Open, High, Low, Close, Volume) directly from Yahoo Finance API in real-time.
+* **Data Processing:**
+    * `Pandas`: Essential for data manipulation, cleaning (handling NaN values), and structuring the time-series data.
+    * `NumPy`: Used for efficient matrix operations and reshaping data arrays for the LSTM input layer.
+    * `Scikit-Learn (MinMaxScaler)`: Used to normalize our data between 0 and 1, ensuring the neural network converges efficiently.
+* **Deep Learning:**
+    * `TensorFlow` & `Keras`: The core frameworks used to build, compile, and train our LSTM neural network.
+* **Visualization & Interface:**
+    * `Matplotlib`: Used during the evaluation phase to plot the comparison graphs (Actual vs. Predicted).
+    * `Streamlit`: Used to create the user-friendly web interface, allowing users to interact with the model without writing code.
+
+### 5.3 References
+
+* *TensorFlow Documentation - Time Series Forecasting*
+* *Yahoo Finance API Documentation*
+* *IEEE Xplore Digital Library (for general research on LSTM in Finance)*
+
  
 
