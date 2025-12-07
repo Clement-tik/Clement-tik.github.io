@@ -84,6 +84,7 @@ This is the raw data our AI model will use for training. Each row represents a s
 * MarketCAP : the marketCAP of the coin which is : Current Price × Circulating Supply
 
 Then we got the exact same type of files for the others coins.
+* ps : to use updated data we passed on the y.finance librairy on python but it's basically the same type of files
 
 This dataset is also an excellent way to study certain aspects of cryptocurrency markets.
 As the chart below illustrates, Bitcoin's price action is defined by two key characteristics: high volatility and non-linear dynamics.
