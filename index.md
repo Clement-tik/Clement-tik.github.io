@@ -10,7 +10,7 @@
 </div>
 <div markdown="1">
 <div class="bloc-simple" markdown="1">
-[![video](http://img.youtube.com/vi/RAG0WtkbtsE/0.jpg)](https://youtu.be/RAG0WtkbtsE?si=qovLYl3Ok2dcFhf0)
+[![our video](http://img.youtube.com/vi/RAG0WtkbtsE/0.jpg)](https://youtu.be/RAG0WtkbtsE)
 ## Our Members
 
 * **Clement Tikhomiroff**
