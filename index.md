@@ -10,7 +10,11 @@
 </div>
 <div markdown="1">
 <div class="bloc-simple" markdown="1">
-[![our video](http://img.youtube.com/vi/RAG0WtkbtsE/0.jpg)](https://youtu.be/RAG0WtkbtsE)
+<div align="center">
+  <a href="https://youtu.be/RAG0WtkbtsE">
+    <img src="http://img.youtube.com/vi/RAG0WtkbtsE/0.jpg" alt="our video">
+  </a>
+</div>
 ## Our Members
 
 * **Clement Tikhomiroff**
