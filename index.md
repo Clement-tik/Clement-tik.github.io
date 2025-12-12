@@ -99,13 +99,9 @@ This complexity is precisely what makes it a perfect challenge for an AI model.
 ![btc closing graph](images/btc_close_price.png)
 
 ## 3 Methodology :
-<div markdown="1">
-<div class="bloc-simple" markdown="1">
-<div align="center">
+
 ![data_yfinance](images/installer_data_ia.png)
 ![data_yfinance](images/manipuler_data_ia.png)
-  </a>
-</div>
 
 As you can see in the code below we need to transform raw data into actionable predictions, we needed a robust algorithmic approach. Predicting a price isn't just about looking at numbers; it is about understanding sequences and temporal dependencies. Since financial data is a time-series problem, standard regression models are often insufficient.
 
