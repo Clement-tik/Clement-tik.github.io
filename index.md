@@ -120,8 +120,6 @@ Reliability is key when dealing with external APIs. The script fetches daily dat
 ### 2. Feature Scaling (Normalization)
 Crypto assets have vastly different price magnitudes (e.g., BTC at $90k vs. DOGE at $0.10). To ensure stable gradient descent, we use **`MinMaxScaler`** to compress all values into a `[0, 1]` range.
 
-> **Note:** We initialize a dedicated `scaler_target` solely for the 'Close' price. This allows us to easily **inverse transform** the model's predictions back into human-readable USD prices later, without needing the Volume data attached.
-
 ### 3. Sliding Window (Sequence Generation)
 LSTMs require temporal context, not isolated data points. We structure the dataset using a **Sliding Window** technique with a 60-day lookback period (`prediction_days = 60`).
 
