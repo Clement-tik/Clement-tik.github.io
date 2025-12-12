@@ -112,6 +112,8 @@ Once the data is retrieved, we apply two critical transformations:
 
 * **Normalization:** Cryptocurrency prices can range from $0.10 (Dogecoin) to $90,000 (Bitcoin). To avoid confusing the neural network with such scale differences, we compress all values between 0 and 1 using a **`MinMaxScaler`**.
 * **Sliding Window Technique:** We don't just give a date to the AI. We give it a context. We created sequences of **60 days**. The model learns that *"Sequence A (Day 1 to 60)"* leads to *"Target B (Day 61)."*
+![data_yfinance](images/installer_data_ia.png)
+![data_yfinance](images/manipuler_data_ia.png)
 
 ### The Model: Long Short-Term Memory (LSTM)
 
