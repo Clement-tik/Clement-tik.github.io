@@ -132,7 +132,7 @@ For the core of our project, we chose the **LSTM (Long Short-Term Memory)** netw
 
 Why LSTM? Because in crypto, context matters. A price drop today might be a correction after a month of rallying, or the start of a crash. The LSTM can distinguish between these by maintaining a "cell state" a memory of what happened long ago in the sequence.
 
-
+![data_yfinance](images/lstm_ia.png)
 
 Our architecture is built as follows:
 
