@@ -99,8 +99,10 @@ This complexity is precisely what makes it a perfect challenge for an AI model.
 ![btc closing graph](images/btc_close_price.png)
 
 ## 3 Methodology :
+![data_yfinance](images/installer_data_ia.png)
+![data_yfinance](images/manipuler_data_ia.png)
 
-To transform raw data into actionable predictions, we needed a robust algorithmic approach. Predicting a price isn't just about looking at numbers; it is about understanding sequences and temporal dependencies. Since financial data is a time-series problem, standard regression models are often insufficient.
+As you can see in the code below we need to transform raw data into actionable predictions, we needed a robust algorithmic approach. Predicting a price isn't just about looking at numbers; it is about understanding sequences and temporal dependencies. Since financial data is a time-series problem, standard regression models are often insufficient.
 
 Therefore, our methodology relies on a specific type of Artificial Intelligence capable of "remembering" past trends to forecast future ones: **Deep Learning**.
 
@@ -125,12 +127,6 @@ LSTMs require temporal context, not isolated data points. We structure the datas
 
 * **`x_train`**: A sequence of 60 days of market data (Close + Volume).
 * **`y_train`**: The target Close price on the **61st day**.
-
-
-
-
-![data_yfinance](images/installer_data_ia.png)
-![data_yfinance](images/manipuler_data_ia.png)
 
 ### The Model: Long Short-Term Memory (LSTM)
 
