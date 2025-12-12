@@ -106,12 +106,29 @@ Therefore, our methodology relies on a specific type of Artificial Intelligence 
 
 ### Data Preprocessing & Acquisition
 
-Before feeding data to the AI, we must prepare the "ingredients." As mentioned in the Datasets section, we switched from static CSV files to a dynamic approach using the **`yfinance` API**. This allows our tool to be always up-to-date with the latest market movements.
+Before training the LSTM, we need to transform raw market data into a format the neural network can ingest. As seen in the implementation, we transitioned from static CSVs to a dynamic pipeline using the **yfinance API**, ensuring the model always trains on the most recent 2-year market history.
 
-Once the data is retrieved, we apply two critical transformations:
+The preprocessing pipeline consists of three distinct stages:
+### 1. Acquisition & Cleaning
+Reliability is key when dealing with external APIs. The script fetches daily data and immediately sanitizes it:
+* **MultiIndex Handling:** It flattens the complex column structure often returned by `yfinance`.
+* **Validation:** It enforces the existence of `'Close'` and `'Volume'` columns, attempting to locate them by index if standard naming conventions fail.
+* **Imputation:** Missing `Volume` values are handled by filling `0` with `NaN` and applying a forward fill (`ffill`) to maintain temporal continuity.
 
-* **Normalization:** Cryptocurrency prices can range from $0.10 (Dogecoin) to $90,000 (Bitcoin). To avoid confusing the neural network with such scale differences, we compress all values between 0 and 1 using a **`MinMaxScaler`**.
-* **Sliding Window Technique:** We don't just give a date to the AI. We give it a context. We created sequences of **60 days**. The model learns that *"Sequence A (Day 1 to 60)"* leads to *"Target B (Day 61)."*
+### 2. Feature Scaling (Normalization)
+Crypto assets have vastly different price magnitudes (e.g., BTC at $90k vs. DOGE at $0.10). To ensure stable gradient descent, we use **`MinMaxScaler`** to compress all values into a `[0, 1]` range.
+
+> **Note:** We initialize a dedicated `scaler_target` solely for the 'Close' price. This allows us to easily **inverse transform** the model's predictions back into human-readable USD prices later, without needing the Volume data attached.
+
+### 3. Sliding Window (Sequence Generation)
+LSTMs require temporal context, not isolated data points. We structure the dataset using a **Sliding Window** technique with a 60-day lookback period (`prediction_days = 60`).
+
+* **`x_train`**: A sequence of 60 days of market data (Close + Volume).
+* **`y_train`**: The target Close price on the **61st day**.
+
+
+
+
 ![data_yfinance](images/installer_data_ia.png)
 ![data_yfinance](images/manipuler_data_ia.png)
 
@@ -119,7 +136,7 @@ Once the data is retrieved, we apply two critical transformations:
 
 For the core of our project, we chose the **LSTM (Long Short-Term Memory)** network. This is a special kind of Recurrent Neural Network (RNN) designed specifically to avoid the "short-term memory" problem of traditional RNNs.
 
-Why LSTM? Because in crypto, context matters. A price drop today might be a correction after a month of rallying, or the start of a crash. The LSTM can distinguish between these by maintaining a "cell state"—a memory of what happened long ago in the sequence.
+Why LSTM? Because in crypto, context matters. A price drop today might be a correction after a month of rallying, or the start of a crash. The LSTM can distinguish between these by maintaining a "cell state" a memory of what happened long ago in the sequence.
 
 
 
